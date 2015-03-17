@@ -29,14 +29,14 @@
     %p
     %br
     %br
-      = text_field_tag '', '', class: "company_search"
+      = text_field_tag '', '', class: "company_search", placeholder: "Search One and Done!"
       = link_to "Search Restaurants", 'javascript:void(0);', class: "search_companies btn btn-primary"
   .row.search_list
 
   %hr/
   .row
     .col-lg-12
-      %h3 Our Providers
+      %h3 All of Our Providers
       - @companies.each do |company|
         .col-md-3.col-sm-6.hero-feature
           .row.text-center

@@ -22,10 +22,9 @@
  */
 
 
- body{
-  padding: 0px;
-
- }
+.homecontent{
+  text-align: left;
+}
 
 .alert{
   font-size: 34px;

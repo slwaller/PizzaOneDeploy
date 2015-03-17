@@ -6,17 +6,18 @@
 }*/
 
 body {
-  background-color: #ba1812;
+  background-color: #000;
   background-image: url(http://www.transparenttextures.com/patterns/brick-wall-dark.png);
   color: white;
+  font-family: sans-serif;
 }
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
-.container {
+/*.container {
   max-width: 960px;
   margin: 0 auto;
-}
+}*/
 /* ============================================================
   SECTIONS
 ============================================================ */
