@@ -51,6 +51,7 @@ gem 'rails_12factor', group: :production
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 gem "paperclip-dropbox", ">= 1.1.7"
